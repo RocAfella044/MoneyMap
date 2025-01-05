@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Gandhi\\Downloads\\moneyMap\\moneyMap\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\moneyMap.styles.css",
+      "PackagePath": "staticwebassets\\moneyMap.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Gandhi\\Downloads\\moneyMap\\moneyMap\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Gandhi\\Downloads\\moneyMap\\moneyMap\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gandhi\\Downloads\\moneyMap\\moneyMap\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gandhi\\Downloads\\moneyMap\\moneyMap\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Gandhi\\Downloads\\moneyMap\\moneyMap\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.moneyMap.props",
+      "PackagePath": "build\\moneyMap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.moneyMap.props",
+      "PackagePath": "buildMultiTargeting\\moneyMap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.moneyMap.props",
+      "PackagePath": "buildTransitive\\moneyMap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.moneyMap.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

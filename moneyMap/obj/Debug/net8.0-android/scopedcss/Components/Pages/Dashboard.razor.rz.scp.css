@@ -1,0 +1,84 @@
+
+
+body[b-yxjzpe22i1] {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.dashboard-container[b-yxjzpe22i1] {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .dashboard-container h2[b-yxjzpe22i1] {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+.summary[b-yxjzpe22i1] {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f1f3f5;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+}
+
+    .summary p[b-yxjzpe22i1] {
+        margin: 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+.transactions h3[b-yxjzpe22i1] {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+table[b-yxjzpe22i1] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    table th[b-yxjzpe22i1],
+    table td[b-yxjzpe22i1] {
+        text-align: left;
+        padding: 12px 15px;
+        border: 1px solid #dee2e6;
+    }
+
+    table th[b-yxjzpe22i1] {
+        background-color: #e9ecef;
+        font-size: 16px;
+        font-weight: bold;
+        color: #495057;
+    }
+
+    table tr:nth-child(even)[b-yxjzpe22i1] {
+        background-color: #f8f9fa;
+    }
+
+    table tr:hover[b-yxjzpe22i1] {
+        background-color: #f1f3f5;
+    }
+
+    table td[b-yxjzpe22i1] {
+        font-size: 14px;
+        color: #212529;
+    }
+
+.no-data[b-yxjzpe22i1] {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+}

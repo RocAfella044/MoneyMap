@@ -1,0 +1,29 @@
+﻿@page "/Debt"
+<link href="/css/Debt.css" rel="stylesheet" />
+
+<div class="form-container">
+    <h2>Debt</h2>
+    <form method="post" action="/Debt/Save">
+        <div class="form-group">
+            <label for="source">Source:</label>
+            <input type="text" id="source" name="source" placeholder="Enter source" required>
+        </div>
+        <div class="form-group">
+            <label for="paymentDue">Due Date:</label>
+            <input type="date" id="paymentDue" name="paymentDue" required>
+        </div>
+        <div class="form-group">
+            <label for="status">Is Debt Cleared?</label>
+            <select id="status" name="status" required>
+                <option value="" disabled selected>Choose</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+
+@code {
+
+}

@@ -1,0 +1,84 @@
+
+
+body[b-kg4xosgvxi] {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.dashboard-container[b-kg4xosgvxi] {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .dashboard-container h2[b-kg4xosgvxi] {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+.summary[b-kg4xosgvxi] {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f1f3f5;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+}
+
+    .summary p[b-kg4xosgvxi] {
+        margin: 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+.transactions h3[b-kg4xosgvxi] {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+table[b-kg4xosgvxi] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    table th[b-kg4xosgvxi],
+    table td[b-kg4xosgvxi] {
+        text-align: left;
+        padding: 12px 15px;
+        border: 1px solid #dee2e6;
+    }
+
+    table th[b-kg4xosgvxi] {
+        background-color: #e9ecef;
+        font-size: 16px;
+        font-weight: bold;
+        color: #495057;
+    }
+
+    table tr:nth-child(even)[b-kg4xosgvxi] {
+        background-color: #f8f9fa;
+    }
+
+    table tr:hover[b-kg4xosgvxi] {
+        background-color: #f1f3f5;
+    }
+
+    table td[b-kg4xosgvxi] {
+        font-size: 14px;
+        color: #212529;
+    }
+
+.no-data[b-kg4xosgvxi] {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+}

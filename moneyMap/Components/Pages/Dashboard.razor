@@ -1,0 +1,75 @@
+﻿@page "/"
+<link href="/css/Dashboard.css" rel="stylesheet" />
+
+<div class="dashboard-container">
+    <h2>Dashboard</h2>
+    <div class="summary">
+        <p>Total Inflow: RS @TotalInflow</p>
+        <p>Total Outflow: RS @TotalOutflow</p>
+        <p>Total Debt: RS @TotalDebt</p>
+    </div>
+    <div class="transactions">
+        <h3>Previous Transactions:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Type</th>
+                    <th>Remark</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Transactions != null && Transactions.Any())
+                {
+                    foreach (var transaction in Transactions)
+                    {
+                        <tr>
+                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                            <td>RS @transaction.Amount</td>
+                            <td>@transaction.Type</td>
+                            <td>@transaction.Remark</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No transactions available</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+    private decimal TotalInflow { get; set; }
+    private decimal TotalOutflow { get; set; }
+    private decimal TotalDebt { get; set; }
+
+    private List<Transaction> Transactions { get; set; } = new List<Transaction>();
+
+    protected override void OnInitialized()
+    {
+        
+        TotalInflow = 5000; 
+        TotalOutflow = 3000; 
+        TotalDebt = 2000; 
+
+        Transactions = new List<Transaction>
+        {
+            new Transaction { Date = DateTime.Now.AddDays(-1), Amount = 1500, Type = "Credit", Remark = "Salary" },
+            new Transaction { Date = DateTime.Now.AddDays(-2), Amount = 500, Type = "Debit", Remark = "Groceries" },
+            new Transaction { Date = DateTime.Now.AddDays(-3), Amount = 200, Type = "Debit", Remark = "Transport" }
+        };
+    }
+
+    private class Transaction
+    {
+        public DateTime Date { get; set; }
+        public decimal Amount { get; set; }
+        public string Type { get; set; }
+        public string Remark { get; set; }
+    }
+}

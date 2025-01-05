@@ -1,0 +1,29 @@
+﻿@page "/Transaction"
+<link href="/css/Transaction.css" rel="stylesheet" />
+
+<div class="form-container">
+    <h2>Transaction</h2>
+    <form method="post" action="/Transaction/Add">
+        <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" step="0.01" placeholder="Enter amount" required>
+        </div>
+        <div class="form-group">
+            <label for="type">Type:</label>
+            <input type="text" id="type" name="type" placeholder="Enter transaction type" required>
+        </div>
+        <div class="form-group">
+            <label for="tags">Tags:</label>
+            <input type="text" id="tags" name="tags" placeholder="Enter tags (e.g., Food, Rent)">
+        </div>
+        <button type="submit" class="btn">Add Transaction</button>
+    </form>
+</div>
+
+@code {
+
+}

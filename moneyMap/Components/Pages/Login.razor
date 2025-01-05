@@ -1,0 +1,30 @@
+﻿@page "/login"
+<link href="css/Style.css" rel="stylesheet" />
+
+<div class="login-container">
+    <div class="login-card">
+        <img src="dribbble_template_logo.png" alt="" class="logo" />
+        <h2>moneyMap</h2>
+        <h3>Login</h3>
+
+        <div class="input-group">
+            <input type="text" placeholder="Username" />
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Password" />
+        </div>
+        <div class="input-group">
+            <label for="currency">Preferred Currency:</label>
+            <select id="currency" class="currency-select">
+                <option value="rs">Rs</option>
+                <option value="dollar">Dollar</option>
+            </select>
+        </div>
+        <button class="btn-primary">Login</button>
+        <p><a href="/forgot-password">Forgot Password?</a></p>
+    </div>
+</div>
+
+@code {
+
+}
